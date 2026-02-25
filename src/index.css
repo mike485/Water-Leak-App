@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary-blue: #005B9F;
+  --color-safety-red: #D32F2F;
+}
+
+@layer base {
+  body {
+    @apply bg-white font-sans text-slate-900;
+  }
+}
+
+.btn-primary {
+  @apply bg-primary-blue text-white font-bold py-3 px-6 rounded-lg transition-all hover:opacity-90 active:scale-95;
+}
+
+.btn-danger {
+  @apply bg-safety-red text-white font-bold py-3 px-6 rounded-lg transition-all hover:opacity-90 active:scale-95;
+}
+
+.input-field {
+  @apply border-2 border-slate-200 rounded-lg p-3 focus:border-primary-blue outline-none transition-colors;
+}

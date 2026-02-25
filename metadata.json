@@ -1,0 +1,5 @@
+{
+  "name": "AquaGuard: Leak Detection",
+  "description": "A minimalist water leak detection utility with Gemini-powered risk assessment and rapid response strategies.",
+  "requestFramePermissions": []
+}
